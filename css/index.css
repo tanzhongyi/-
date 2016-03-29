@@ -1,0 +1,709 @@
+/* 头部导航 */
+#topNav {
+  max-width: 768px;
+  margin: 0 auto;
+}
+#topNav ul {
+  overflow: hidden;
+}
+#topNav a {
+  display: block;
+  padding: 13px 0 10px;
+}
+#topNav li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  border-left: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+#topNav li:nth-child(4n+1) {
+  border-left-color: transparent;
+}
+#topNav li:nth-child(1) i {
+  background-color: #ff565b;
+  background-position: center 5px;
+}
+#topNav li:nth-child(2) i {
+  background-color: #fd8e35;
+  background-position: center -48px;
+}
+#topNav li:nth-child(3) i {
+  background-color: #f5c132;
+  background-position: center -103px;
+}
+#topNav li:nth-child(4) i {
+  background-color: #6cc143;
+  background-position: center -158px;
+}
+#topNav li:nth-child(5) i {
+  background-color: #7b7ad7;
+  background-position: center -211px;
+}
+#topNav li:nth-child(6) i {
+  background-color: #fe8a66;
+  background-position: center -266px;
+}
+#topNav li:nth-child(7) i {
+  background-color: #42bde8;
+  background-position: center -321px;
+}
+#topNav li:nth-child(8) i {
+  background-color: #01d1d1;
+  background-position: center -374px;
+}
+#topNav li i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 8px;
+  border-radius: 4px;
+  background: url(../img/icon.png) no-repeat;
+  background-size: 50px 1000px;
+}
+#topNav li span {
+  color: #333;
+  font-size: 1.2rem;
+}
+/* 装修效果图 */
+.part-title {
+  height: 40px;
+  line-height: 40px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  text-indent: 1rem;
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.button-list {
+  margin-top: 14px;
+  overflow: hidden;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+.button-list a {
+  width: 50%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+.button-list a.button-list-left {
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid #ebebeb;
+}
+.button-list a.button-list-left span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  line-height: 15px;
+}
+.button-list a.button-list-left span:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+  margin-top: -2px;
+  width: 15px;
+  height: 15px;
+  background: url(../img/icon-reflesh.jpg) no-repeat center center;
+  background-size: 15px 15px;
+}
+.button-list a.button-list-right {
+  float: right;
+  color: #fa4e3e;
+}
+.button-list a.button-list-right span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  line-height: 15px;
+}
+.button-list a.button-list-right span:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-top: -2px;
+  width: 15px;
+  height: 15px;
+  background: url(../img/icon-red-arrow.jpg) no-repeat center center;
+  background-size: 15px 15px;
+}
+.ad-box {
+  margin: 4% 0;
+}
+#decoEffection {
+  max-width: 768px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+#decoEffection .part-title {
+  border-top-color: transparent;
+}
+#decoEffection .container {
+  width: 93.75%;
+  margin: 0 auto;
+}
+#decoEffection .container ul.pic-zan-list {
+  overflow: hidden;
+}
+#decoEffection .container ul.pic-zan-list li {
+  float: left;
+  margin-bottom: 4%;
+}
+#decoEffection .container ul.pic-zan-list li:not( :nth-child(1)) {
+  width: 48%;
+}
+#decoEffection .container ul.pic-zan-list li:nth-child(1) {
+  width: 100%;
+  margin-top: 4%;
+}
+#decoEffection .container ul.pic-zan-list li:nth-child(2n+3) {
+  float: right;
+}
+#decoEffection .container ul.pic-zan-list a {
+  display: block;
+  position: relative;
+}
+#decoEffection .container ul.pic-zan-list a span {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  font-size: 0.8rem;
+  padding: 4px 4px 4px 16px;
+  border-radius: 4px;
+  color: #333;
+  background: url(../img/icon-love.jpg) no-repeat;
+  background-position: 4px center;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: 12px 10px;
+}
+#decoEffection .container .cate-list div {
+  overflow: hidden;
+}
+#decoEffection .container .cate-list div.cate-list-1 {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #ebebeb;
+}
+#decoEffection .container .cate-list div.cate-list-2 {
+  padding-top: 10px;
+}
+#decoEffection .container .cate-list div.cate-list-1 a:first-child {
+  background: #fec408 url(../img/icon-arrow.jpg) no-repeat left center;
+  background-size: 15px 18px;
+}
+#decoEffection .container .cate-list div.cate-list-2 a:first-child {
+  background: #fa4e3e url(../img/icon-arrow2.jpg) no-repeat left center;
+  background-size: 15px 18px;
+}
+#decoEffection .container .cate-list div a {
+  float: left;
+  width: 18%;
+  margin-left: 2.5%;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #ededed;
+  color: #666;
+}
+#decoEffection .container .cate-list div a:first-child {
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-left: 0;
+  color: #fff;
+}
+#quoteForm {
+  background-color: #f8f8f8;
+  padding: 25px 3.125%;
+}
+#quoteForm form {
+  padding: 0 3.125% 18px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-top-color: #ffb039;
+  border-radius: 4px;
+}
+#quoteForm form h3 {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #333;
+  font-size: 1.6rem;
+  background: url(../img/icon-car.jpg) no-repeat 8% center;
+  background-size: 18px 20px;
+}
+#quoteForm form input,
+#quoteForm form select {
+  font-family: "Microsoft Yahei";
+  outline: none;
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+#quoteForm form .input-group {
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-bottom: 4%;
+  background: url(../img/icon-down-arrrow.jpg) no-repeat;
+  background-size: 14px 10px;
+  background-position: 95% center;
+}
+#quoteForm form .input-group.first-input-group {
+  border: none;
+  padding-left: 0;
+}
+#quoteForm form .input-group.first-input-group input {
+  padding: 6px 0;
+}
+#quoteForm form .input-group.first-input-group div {
+  width: 48%;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  border-radius: 4px;
+}
+#quoteForm form .input-group.first-input-group div:nth-child(1) {
+  float: left;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+#quoteForm form .input-group.first-input-group div:nth-child(1) span {
+  position: absolute;
+  right: 5px;
+  top: 6px;
+}
+#quoteForm form .input-group.first-input-group div:nth-child(2) {
+  float: right;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+#quoteForm form .get-quote-btn {
+  font-size: 1.6rem;
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  background-color: #fa4e3e;
+  color: #ffffff;
+}
+/* 装修攻略 */
+#decoStragry .container {
+  width: 93.75%;
+  margin: 0 auto;
+}
+#decoStragry .stragry-list {
+  margin-top: 4%;
+  border-bottom: 1px solid #ebebeb;
+}
+#decoStragry .stragry-list li {
+  float: left;
+  width: 48%;
+  margin-bottom: 4%;
+}
+#decoStragry .stragry-list li:nth-child(odd) {
+  margin-right: 4%;
+}
+#decoStragry .stragry-list li a {
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333333;
+}
+#decoStragry .stragry-list li a span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+#decoStragry .stragry-list li a span:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: url(../img/icon.png) no-repeat;
+  background-size: 50px 1000px;
+  width: 18px;
+  height: 16px;
+}
+#decoStragry .stragry-list li:nth-child(1) a span:before {
+  background-position: center -794px;
+}
+#decoStragry .stragry-list li:nth-child(2) a span:before {
+  background-position: center -856px;
+}
+#decoStragry .stragry-list li:nth-child(3) a span:before {
+  background-position: center -919px;
+}
+#decoStragry .stragry-list li:nth-child(4) a span:before {
+  background-position: center -980px;
+}
+#decoStragry .stragry-content-list li {
+  margin-top: 4%;
+}
+#decoStragry .stragry-content-list a {
+  display: block;
+  overflow: hidden;
+}
+#decoStragry .stragry-content-list a h3 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.2rem;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#decoStragry .stragry-content-list a p {
+  font-size: 0.8rem;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#decoStragry .stragry-content-list a div {
+  float: left;
+}
+#decoStragry .stragry-content-list a div:nth-child(1) {
+  width: 30%;
+}
+#decoStragry .stragry-content-list a div:nth-child(2) {
+  margin-left: 4%;
+  width: 66%;
+}
+#decoStragry .decorate-time {
+  overflow: hidden;
+  margin-top: 4%;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+#decoStragry .decorate-time li {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  position: relative;
+}
+#decoStragry .decorate-time li a {
+  display: block;
+  padding: 13px 0 16px;
+}
+#decoStragry .decorate-time li span {
+  color: #333;
+}
+#decoStragry .decorate-time li i {
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 12px;
+  background: url(../img/icon-decorate.png) no-repeat;
+  background-size: 64px 200px;
+}
+#decoStragry .decorate-time li:nth-child(1):after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 39px;
+  right: -7px;
+  width: 14px;
+  height: 10px;
+  background: url(../img/decro-arrow1.jpg) no-repeat;
+  background-size: 14px 10px;
+}
+#decoStragry .decorate-time li:nth-child(2) i {
+  background-position: 0 -68px;
+}
+#decoStragry .decorate-time li:nth-child(2):after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 39px;
+  right: -7px;
+  width: 14px;
+  height: 10px;
+  background: url(../img/decro-arrow2.jpg) no-repeat;
+  background-size: 14px 10px;
+}
+#decoStragry .decorate-time li:nth-child(3) i {
+  background-position: 0 -135px;
+}
+#decoAnswer {
+  width: 93.75%;
+  margin: 0 auto;
+}
+#decoAnswer .search-bar {
+  overflow: hidden;
+  position: relative;
+}
+#decoAnswer .search-bar input,
+#decoAnswer .search-bar a {
+  font-family: "Microsoft Yahei";
+  outline: none;
+  border: none;
+}
+#decoAnswer .search-bar input {
+  float: left;
+  padding: 6px 0 6px 16px;
+  height: 16px;
+  line-height: 16px;
+  border: 1px solid #ebebeb;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  width: 70%;
+}
+#decoAnswer .search-bar a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fa4e3e;
+  color: #fff;
+  padding: 7px 0;
+  width: 30%;
+  text-align: center;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 0 4px 4px 0;
+}
+#decoAnswer .search-bar a span {
+  display: inline-block;
+  vertical-align: top;
+}
+#decoAnswer .search-bar a span:before {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: url(../img/icon-scale.jpg) no-repeat;
+  background-size: 15px 15px;
+}
+#decoAnswer ul {
+  margin-top: 4%;
+}
+#decoAnswer ul li {
+  position: relative;
+}
+#decoAnswer ul li:not(:last-child) {
+  border-bottom: 1px solid #ebebeb;
+}
+#decoAnswer ul li:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #b9b9b9;
+  position: absolute;
+  left: 3px;
+  top: 21px;
+}
+#decoAnswer ul a {
+  display: block;
+  padding: 8px 14px;
+}
+#decoAnswer ul a h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 28px;
+  line-height: 28px;
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+#decoAnswer ul div {
+  overflow: hidden;
+}
+#decoAnswer ul div span {
+  height: 18px;
+  line-height: 18px;
+}
+#decoAnswer ul div span:nth-child(1) {
+  float: left;
+  color: #fb6759;
+}
+#decoAnswer ul div span:nth-child(2) {
+  float: right;
+  color: #999;
+  position: relative;
+}
+#decoAnswer ul div span:nth-child(2):before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #999;
+}
+#localNews {
+  margin-top: 4%;
+}
+#localNews .new-list {
+  width: 93.75%;
+  margin: 2% auto;
+}
+#localNews .new-list li {
+  position: relative;
+  overflow: hidden;
+  padding: 0 8px;
+}
+#localNews .new-list li:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #b9b9b9;
+  position: absolute;
+  left: 2px;
+  top: 15px;
+}
+#localNews .new-list li a {
+  float: left;
+  width: 88%;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 32px;
+  line-height: 32px;
+}
+#localNews .new-list li .publish-time {
+  float: right;
+  height: 32px;
+  line-height: 32px;
+  color: #999;
+}
+#footer {
+  background-color: #f8f8f8;
+  padding: 4% 0;
+}
+#footer .feedback-list {
+  width: 88%;
+  margin: 0 auto 2%;
+  overflow: hidden;
+}
+#footer .feedback-list a {
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  width: 30%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333333;
+}
+#footer .feedback-list a:nth-child(2) {
+  margin: 0 5%;
+  position: relative;
+}
+#footer .feedback-list a:nth-child(2):before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #b9b9b9;
+  position: absolute;
+  left: -10%;
+  top: 15px;
+}
+#footer .feedback-list a:nth-child(2):after {
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #b9b9b9;
+  position: absolute;
+  right: -10%;
+  top: 15px;
+}
+#footer .contact-tel {
+  width: 56.25%;
+  margin: 0 auto;
+  text-align: center;
+}
+#footer .contact-tel p {
+  color: #999;
+  margin-top: 4px;
+}
+#footer .contact-tel a {
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333333;
+}
+#footer .contact-tel span {
+  vertical-align: middle;
+}
+#footer .contact-tel .contact-tips:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 13px;
+  height: 13px;
+  margin-right: 4px;
+  background: url(../img/icon-tel.jpg) no-repeat;
+  background-size: 13px 13px;
+}
+#footer .contact-tel .tel-num {
+  color: #fb6759;
+}
+#footer .footer-computer {
+  text-align: center;
+  color: #70c9f4;
+}
+#footer .footer-computer i,
+#footer .footer-computer span {
+  display: inline-block;
+  vertical-align: middle;
+}
+#footer .footer-computer i {
+  width: 17px;
+  height: 13px;
+  margin-right: 4px;
+  background: url(../img/icon-computer.jpg) no-repeat;
+  background-size: 17px 13px;
+}
+.online-server,
+.top-back {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 58px;
+}
+.online-server {
+  right: 12px;
+  bottom: 58px;
+}
+.top-back {
+  right: 12px;
+  bottom: 8px;
+}
